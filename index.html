@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INDEX page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>This is how a form might look like</h1>
+    <p>Hi. I'm going to take all of your personal information</p>
+
+    <div class = "division1">
+        <form action="/blogs" method="post">
+    <ol>
+        <li>
+    <label for="name">Enter your name: </label>
+    <input type="text" id="box1" name="name" ><br><br>
+    </li>
+
+    <li>
+    <label for="age">Enter your age:</label>
+    <input type="number" id="box2" name="age"><br><br>
+    </li>
+
+    <li>
+    <label for="gender">Specify your gender: </label><br><br>
+
+    <label for="male">Male</label>
+    <input type="radio" id="male" name="gender" value="Male">
+
+    <label for="female">Female</label>
+    <input type="radio" id="female" name="gender" value="Female">
+
+    <label for="idk">Attack Helicopter</label>
+    <input type="radio" id="idk" name="gender" value="Attack Helicopter">
+    </li><br>
+
+    <li>
+        <label for="register">Enter your Register Number</label>
+        <input type="text" id="reg" name="register">
+    </li>
+    </ol>
+    </div>
+
+    <button>Submit</button>
+    </form>
+</body>
+</html>
+
